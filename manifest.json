@@ -1,0 +1,19 @@
+{
+    "manifest_version":3,
+    "name":"Study Helper",
+    "version":"1.0.0",
+    "action":{
+        "default_popup":"popup/popup.html"
+    },
+    "icons":{
+        "128":"icon/icon.jpg"
+    },
+    "background":{
+        "type":"module",
+        "service_worker":"background.js"
+    },
+    "permissions":[
+        "alarms",
+        "storage"
+    ]
+}
